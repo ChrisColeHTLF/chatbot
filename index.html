@@ -3,16 +3,12 @@
 </head>
 <body>
 This is a test of the chatbot
-  <div id="liveagent_invite_button_573x0000000001O" style="display: none;
-  position: fixed; border: 2px solid darkblue; border-radius: 5px;
-  background-color: lightblue; height: 100px; width: 200px;">
-<div style="cursor: pointer; padding: 5px; right: 0px;
-  position: absolute; color: darkred; font-weight: bold;"
-  onclick="liveagent.rejectChat('573x0000000001O')">X</div>
-<div style="cursor: pointer; top: 42px; left: 65px; position: absolute;
-  font-weight: bold; font-size: 16px;" 
-  onclick="liveagent.startChat('573x0000000001O')">Start Chat</div>
-</div>
+ <a id="liveagent_button_online_5731U000000IiGS" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5731U000000IiGS')"><!-- Online Chat Content --></a><div id="liveagent_button_offline_5731U000000IiGS" style="display: none;"><!-- Offline Chat Content --></div><script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('5731U000000IiGS', document.getElementById('liveagent_button_online_5731U000000IiGS'));
+liveagent.showWhenOffline('5731U000000IiGS', document.getElementById('liveagent_button_offline_5731U000000IiGS'));
+});</script>
+  
 <script type='text/javascript' src='https://c.la4-c1cs-ia5.salesforceliveagent.com/content/g/js/54.0/deployment.js'></script>
 <script type='text/javascript'>
 liveagent.init('https://d.la4-c1cs-ia5.salesforceliveagent.com/chat', '5721U000000R0Ph', '00D530000004dID');
